@@ -1,0 +1,10 @@
+creator: James Gosling 1995 at Sun Microsystems
+
+variable: a placeholder (a box) for a value
+operator: does an OPERATION with two OPERANDS
+type system: tell the compiler what is the type of data that you will be operating on
+machine code: binary 0s and 1s
+bytecode: an intermediate representation of java source code ready to be executed by the JVM
+JVM: 'protocol', specifies the instruction set, memory model and low level details. Executes java bytecode. Load -> Verify -> Execute.
+JRE: Implementation of JVM. includes the JVM (is superset of the JVM) and core libraries and components required for a java app. Like the java compiler
+JDK: write / compile / debug java code. A set of utilities to help developers.

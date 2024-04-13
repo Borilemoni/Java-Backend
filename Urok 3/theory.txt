@@ -1,0 +1,65 @@
+collection: storage for multiple values
+
+Analyzing Time and Space complexity of an algorithm or a data structure:
+Time - колко е бърз
+space - колко памет заема
+
+Big O Notation:
+O(1) - Constant Time:
+array memory location = 0x15
+arr[0]
+0x15 + 0 -> element
+arr[999999]
+0x15 + 999999 -> element
+The running time of the algorithm is constant, regardless of the size of the input.
+Example: Accessing an element in an array by index, performing a simple arithmetic operation.
+
+O(log n) - Logarithmic Time:
+
+The running time grows logarithmically with the size of the input.
+Common in algorithms that divide the problem into smaller subproblems.
+Example: Binary search on a sorted array.
+
+O(n) - Linear Time:
+The running time grows linearly with the size of the input.
+Example: Iterating through an array or a linked list.
+
+O(n log n) - Linearithmic Time:
+
+Common in efficient sorting algorithms.
+Example: Merge sort, heap sort.
+
+O(n^2) - Quadratic Time:
+
+for (for int i = 0; i < arr.size(); i++) {
+    for (int j = 0; j < arr.size(); j++) {
+        
+    }
+}
+
+The running time grows proportionally to the square of the size of the input.
+Common in algorithms with nested iterations.
+Example: Bubble sort, selection sort.
+
+O(n ^ k) - Polynomial Time:
+
+The running time grows polynomially with the size of the input.
+The degree of the polynomial is represented by 'k'.
+Example: Algorithms with nested loops where the total number of nested loops is 'k'.
+ 
+O(2^n) - Exponential Time:
+
+The running time grows exponentially with the size of the input.
+Common in brute-force algorithms or recursive algorithms with exponential recursion.
+Example: Solving the Tower of Hanoi problem using recursion.
+
+Important Points:
+Best Case vs. Worst Case:
+
+Big O notation usually describes the worst-case scenario. However, there are also notations like Omega (Ω) for best-case analysis and Theta (Θ) for average-case analysis.
+Asymptotic Analysis:
+
+Big O focuses on the behavior of the algorithm as the input size approaches infinity. It ignores constant factors and lower-order terms.
+Comparing Algorithms:
+
+Big O notation allows us to compare the efficiency of algorithms without getting into the details of the specific hardware or constant factors.

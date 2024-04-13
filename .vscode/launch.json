@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Example2",
+            "request": "launch",
+            "mainClass": "Example2",
+            "projectName": "JAVA-UROCI_441e6035"
+        },
+        {
+            "type": "java",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${file}"
+        }
+    ]
+}

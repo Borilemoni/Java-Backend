@@ -1,0 +1,25 @@
+keyword: запазена дума от Java например class, void, int...
+new: creates the given object at heap (dynamic) memory
+pass by reference: pass an object to a method by reference NOT COPY
+pass by value: method works with a copy of the given object 
+static typed: give types to variables, arguments (parameters) and method return values
+    pros (плюс) of statically typed languages:
+        1. Early detection of errors
+        2. Clearer communication with the computer (CPU)
+        3. Performance optimization
+        4. Code readability
+        5. Tooling support (tool = инструмент) 
+this: reference to object of the given class
+
+member modifiers:
+  static: shared state across all objects
+
+method mofidiers:
+  public: the class / variable / method can be accessed from ANY other class
+  private: inverted public
+  protected: can be accessed by child classes
+  
+  static: the method belongs to the class rather than the individual instances (objects). It can be called without creating an object first. Thus cannot use the "this" keyword.
+
+type declaration:
+  void: specifies that the given function / metho will return nothing
