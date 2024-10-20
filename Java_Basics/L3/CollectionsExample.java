@@ -4,6 +4,7 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.Set;
 import java.util.HashSet;
+import java.util.LinkedList;
 import java.util.Collections;
 
 public class CollectionsExample {
@@ -11,6 +12,8 @@ public class CollectionsExample {
   public static void main(String[] args) {
     // ArrayList Example
     List<String> arrayList = new ArrayList<>();
+    List<Integer> numbers = new LinkedList<>();
+    
     arrayList.add("Apple");
     arrayList.add("Banana");
     arrayList.add("Orange");
@@ -29,6 +32,13 @@ public class CollectionsExample {
     hashMap.put("Python", 1991);
     hashMap.put("C++", 1983);
     hashMap.put("JavaScript", 1995);
+
+    // host: 127.0.0.1, port: 5432, user: Monika, password: ...
+
+    Map<String, String> dbConnection = new HashMap<>();
+    dbConnection.put("host", "127.0.0.1"); // ...
+
+    dbConnection.get("host"); // -> 127.0.0.1
 
     System.out.println("Programming Languages and their Release Years:");
     for (Map.Entry<String, Integer> entry : hashMap.entrySet()) {
